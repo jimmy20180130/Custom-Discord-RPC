@@ -1,0 +1,45 @@
+{   
+    "large_image": "large image key",
+    "large_text": "large image text",
+    "small_image": "small image key",
+    "small_text": "small image text",
+    "details": [
+        "detail_1",
+        "detail_2"
+    ],
+    "state": "state",
+    "start": "0 or 1 or 2 or 3 or 4",
+    "custom_time": "custom start time(Unix time)",
+    "//start定義": "為開始時間，例如假如把開始時間設在三個小時前，那麼你在動態中就會看到經過時間為03:00:00  (請勿更改這行)",
+    "//start0": "設為0 -> 現在時間  (請勿更改這行)",
+    "//start1": "設為1 -> 程式執行時間  (請勿更改這行)",
+    "//start2": "設為2 -> 自上次狀態更新以來的時間  (請勿更改這行)",
+    "//start3": "設為3 -> 自訂時間  (請勿更改這行)",
+    "//start4": "設為4 -> 無  (請勿更改這行)",
+    "//custom_time": "自訂時間(自1970/1/1 00:00:00到現在的秒數)  (請勿更改這行)",
+    "custom_end": "custom end time(Unix time)",
+    "//end定義": "為結束時間，例如假如把開始時間設在三個小時後，那麼你在動態中就會看到剩餘時間為03:00:00  (請勿更改這行)",
+    "//custom_end": "自訂時間(自1970/1/1 00:00:00到現在的秒數)  (請勿更改這行)",
+    "party_size": "0 or 1 or 2",
+    "custom_party_size_max": "party_size_max",
+    "custom_party_size_current": "party_size_current",
+    "//party_size定義": "為開始時間，例如假如把開始時間設在三個小時前，那麼你在動態中就會看到經過時間為03:00:00  (請勿更改這行)",
+    "//party_size0": "設為0 -> 目標頻道的訂閱數和訂閱目標  (請勿更改這行)",
+    "//party_size1": "設為1 -> 自訂  (請勿更改這行)",
+    "//party_size2": "設為2 -> 無  (請勿更改這行)",
+    "//custom_party_size_max": "party最大的大小，例如5代表party最多有五人",
+    "//custom_party_size_current": "party目前的大小，例如3代表party目前有三人",
+    "buttons": [
+        {
+            "label": "button_1",
+            "url": "https://www.youtube.com/@JimmyXiaoXi?sub_confirmation=1"
+        },{
+            "label": "button_2",
+            "url": "https://discord.gg/5UrGWXf3ba"
+        }
+    ],
+    "reconnect_time": "10",
+    "get_sub_time": "500",
+    "update_statistics_time": "15",
+    "get_current_time_delay": "1"
+}
