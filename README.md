@@ -11,8 +11,8 @@ Welcome to the Custom-Discord-RPC! This project provides a Discord Rich Presence
 
 1. Download the contents of the `DiscordRPC_EXE` directory from the repository.
 2. Place all the downloaded files in a single folder on your local machine.
-3. Open the `config.json` file and update it with your desired settings, such as your Discord application's Client ID and other game details.
-4. Save the `config.json` file after making the necessary changes.
+3. Open the `settings.json` file and update it with your desired settings, such as your Discord application's Client ID and other game details.
+4. Save the `settings.json` file after making the necessary changes.
 5. Run `DiscordRPC.exe` to execute the Discord Rich Presence application.
 6. Your Discord profile will now show the custom status based on the settings in your `config.json` file when you are playing games or using the application.
 
@@ -20,8 +20,8 @@ Welcome to the Custom-Discord-RPC! This project provides a Discord Rich Presence
 
 1. Download the contents of the `DiscordRPC` directory from the repository.
 2. Place all the downloaded files in a single folder on your local machine.
-3. Open the `config.json` file and update it with your desired settings, such as your Discord application's Client ID and other game details.
-4. Save the `config.json` file after making the necessary changes.
+3. Open the `settings.json` file and update it with your desired settings, such as your Discord application's Client ID and other game details.
+4. Save the `settings.json` file after making the necessary changes.
 5. Run `install.bat` to ensure all the required dependencies are installed.
 6. After the installation is complete, you can now execute `DiscordRPC.py` to start the Discord Rich Presence application.
 7. Your Discord profile will now display the custom status based on the settings in your `config.json` file when you are playing games or using the application.
